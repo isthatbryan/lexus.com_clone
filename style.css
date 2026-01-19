@@ -1,0 +1,477 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Nobel', sans-serif;
+}
+
+.lexus_logo{
+    width: 148px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.navigation{
+    display: flex;
+    margin-right: 0;
+}
+
+.nav-links{
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-right: 0;
+}
+
+.nav-link{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.search-img{
+   vertical-align: bottom;
+}
+
+.section-one{
+    margin-bottom: 25px;
+}
+
+.video_div{
+    position: relative;
+}
+
+.lexus_vid{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hero{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    display: block;
+}
+
+.lower-hero{
+    position: absolute;
+    top: 657px;
+    left: 1020px;
+}
+
+.hero-head{
+    color: white;
+    font-size: 320%;
+    font-weight: 100;
+    margin-bottom: 10px;display: block;
+}
+
+.hero-text{
+    color: white;
+    font-size: 120%;
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+.hero-subtext{
+    color: grey;  
+    margin-left: 280px;
+    margin-top: 20px; 
+}
+
+.mtm-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.explore-btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 240px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.updates-btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 240px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.explore-btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+.updates-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+
+.mtm-head{
+    font-size: 220%;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 100;
+}
+
+.models{
+    display: flex;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    width: 730px;
+    margin-left: 390px;
+}
+
+.model-div{
+    display: flex;
+    margin-left: 20px;
+}
+
+.model-one{
+    font-weight: bold;
+    padding-top: 8px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.model-two{
+    width: 150px; 
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.model{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.number{
+    height: 10px;
+    margin: 0 0 0 0;
+    font-size: 14px;
+}
+
+.circle{
+    background-color: rgb(248, 248, 248);
+    border: 1px solid grey;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 20px;
+    height: 18px;
+    margin-top: 20px;
+}
+
+.model-img-one{
+    width: 200px;
+    margin-top: 77px;
+}
+
+.model-img-two{
+    width: 300px;
+    margin-top: 47px;
+}
+
+.model-img-three{
+    width: 490px;
+}
+
+.models-grid{
+    display: flex;
+    margin-top: 50px;
+}
+
+.invisible{
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.hr{
+    border-bottom: 1px solid rgb(196, 196, 196);
+    width: 700px;
+    margin-left: 400px;
+}
+
+.model-name{
+    font-size: 220%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.view-rz{
+    font-size: 60%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.shopping-tools{
+    padding-left: 400px;
+    margin-top: 80px;
+    padding-top:30px;
+    padding-bottom: 60px;
+    background-color: rgb(248, 248, 248);
+}
+
+.shopping-tools-head{
+    margin-left: 250px;
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.shopping-tools-grid{
+    display: flex;
+    gap: 5px;
+}
+
+.shopping-tools-icons{
+    width: 20px;
+    padding-top: 15px;
+}
+
+.shopping-tools-icons-one{
+    width: 14px;
+    padding-top: 13px;
+}
+
+.shopping-tools-icons-two{
+    width: 17px;
+    padding-top: 13px;
+}
+
+.shopping-tools-div{
+    display: grid;
+    grid-template-columns: 30px 80px;
+}
+
+.shopping-tools-div-one{
+    display: grid;
+    grid-template-columns: 30px 150px;
+}
+
+.shopping-tool{
+    cursor: pointer;
+}
+
+.f-sports{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.f-sports-head{
+    font-size: 140%;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.f-sports-grid{
+    display: flex;
+    gap: 8px;
+    margin-top: 5px
+}
+
+.f-sports-img-one{
+    margin-left: 40px;
+}
+
+.f-sports-text{
+    width: 400px;
+    text-align: left;
+    padding-top: 130px;
+    padding-left: 20px;
+    font-size: 100%;
+    font-weight: 100;
+}
+
+.f-sports-learn-more{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.f-sports-learn-more-two{
+    text-align: left;
+    padding-top: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.f-sports-grid-two{
+    display: flex;
+    margin-top: 6px;
+    text-align: center;
+    gap: 50px;
+    margin-left: 79px;
+}
+
+.f-sports-head-two{
+    font-size: 140%;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 140px;
+    text-align: left;
+}
+
+.f-sports-text-two{
+    width: 400px;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 100;
+}
+
+.f-sports-img-two{
+    width: 945px;
+}
+
+.f-sports-grid-three{
+    display: flex;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.f-sports-text-three{
+    width: 400px;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.f-sports-head-three{
+    padding-top: 140px;
+    font-size: 160%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.f-sports-img-three{
+    width: 930px;
+    margin-left: 45px;
+}
+
+.discover-lexus{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.discover-lexus-head{
+    font-size: 190%;
+}
+
+.discover-lexus-img{
+    width: 320px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.discover-lexus-grid{
+    display: flex;
+}
+
+.discover-lexus-subhead{
+    text-align: left;
+    font-size: 105%;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.discover-lexus-text{
+    text-align: left;
+    margin-left: 40px;
+    width: 310px;
+    color: rgb(60, 59, 59);
+    font-size: 90%;
+}
+
+.discover-lexus-learn-more{
+    text-align: left;
+    font-size: 85%;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.safety{
+    background-color: rgb(248, 248, 248);
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 80%;
+    color: rgb(60, 59, 59);
+}
+
+.safety-recalls{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: black;
+    padding-top: 20px;
+}
+
+.piracy-div{
+    display: grid;
+    grid-template-columns: 135px 45px 400px;
+    margin-left: 550px;
+}
+
+.piracy-text, .disconnect-remote-access{
+    color: rgb(131, 117, 43);
+    font-size: 70%;
+}
+
+.piracy-img{
+    padding-top: 10px;
+}
+
+.footer-links{
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.footer-links-one{
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.footer-links-two{
+    font-size: 90%;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.footer-links-one-one, .footer-links-two-two{
+    font-size: 80%;
+    line-height: 15px;
+    cursor: pointer;
+}
